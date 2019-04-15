@@ -1,16 +1,16 @@
-Fitter Status : Successful - Tue Apr 02 18:48:09 2019
+Fitter Status : Successful - Mon Apr 15 18:39:31 2019
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : lil_procy
 Top-level Entity Name : lil_procy
 Family : Cyclone II
 Device : EP2C35F672C6
 Timing Models : Final
-Total logic elements : 2,675 / 33,216 ( 8 % )
-    Total combinational functions : 2,243 / 33,216 ( 7 % )
-    Dedicated logic registers : 1,198 / 33,216 ( 4 % )
-Total registers : 1198
+Total logic elements : 8,152 / 33,216 ( 25 % )
+    Total combinational functions : 2,853 / 33,216 ( 9 % )
+    Dedicated logic registers : 7,488 / 33,216 ( 23 % )
+Total registers : 7488
 Total pins : 1 / 475 ( < 1 % )
 Total virtual pins : 0
-Total memory bits : 16,384 / 483,840 ( 3 % )
-Embedded Multiplier 9-bit elements : 6 / 70 ( 9 % )
+Total memory bits : 88,080 / 483,840 ( 18 % )
+Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
 Total PLLs : 1 / 4 ( 25 % )

@@ -1,4 +1,4 @@
-module registers(CLOCK_50, wb, addr_a, addr_b, dst, data_a, data_b, reg_write);
+module registers(CLOCK_50, wb, addr_a, addr_b, dst, data_a, data_b, reg_write, x2);
 
 input CLOCK_50;
 input [31:0] wb;
@@ -10,6 +10,10 @@ output reg [31:0] data_a;
 output reg [31:0] data_b;
 
 reg [31:0] regs [31:0];
+
+output [31:0] x2;
+
+assign x2 = regs[1];
 
 initial
 	begin
@@ -52,9 +56,11 @@ initial
 		
 		if(reg_write && dst != 0) 
 			regs[dst] <= wb;
+		
 	end 
 	
-	always @(addr_a or addr_b)
+
+	always @(*)
 	begin
 		data_a = regs[addr_a];
 		data_b = regs[addr_b];

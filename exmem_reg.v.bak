@@ -1,0 +1,9 @@
+module exmem_reg(clk, inst, writeback, memwrite, address, writedata, pc);
+
+input clk;
+input inst;
+input writeback;
+input memwrite;
+
+
+endmodule
