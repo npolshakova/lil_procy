@@ -1,0 +1,123 @@
+Archive Project report for lil_procy
+Tue Apr 02 17:44:49 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue Apr 02 17:44:49 2019 ;
+; Revision Name          ; lil_procy                             ;
+; Top-level Entity Name  ; lil_procy                             ;
+; Family                 ; Cyclone II                            ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'U:/ENGN1640/lil_procy/lil_procy.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'lil_procy.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4482 megabytes
+    Info: Processing ended: Tue Apr 02 17:44:49 2019
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:03
+
+
++-----------------------------------------------------------+
+; Files Archived                                            ;
++-----------------------------------------------------------+
+; File Name                                                 ;
++-----------------------------------------------------------+
+; a_sel.bsf                                                 ;
+; a_sel.qip                                                 ;
+; a_sel.v                                                   ;
+; a_sel_bb.v                                                ;
+; add_four.v                                                ;
+; alu.v                                                     ;
+; b_mux.bsf                                                 ;
+; b_mux.qip                                                 ;
+; b_mux.v                                                   ;
+; b_mux_bb.v                                                ;
+; branch_comp.v                                             ;
+; c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf   ;
+; control.v                                                 ;
+; dmem.bsf                                                  ;
+; dmem.qip                                                  ;
+; dmem.v                                                    ;
+; dmem_bb.v                                                 ;
+; dmem_syn.v                                                ;
+; get_addr.v                                                ;
+; id.v                                                      ;
+; imm_gen.v                                                 ;
+; inc_pc.bsf                                                ;
+; inc_pc.qip                                                ;
+; inc_pc.v                                                  ;
+; inc_pc_bb.v                                               ;
+; incremental_db/compiled_partitions/lil_procy.db_info      ;
+; instruction_mem.v                                         ;
+; lil_procy.bdf                                             ;
+; lil_procy.out.sdc                                         ;
+; lil_procy.qpf                                             ;
+; lil_procy.qsf                                             ;
+; lil_procy.v                                               ;
+; lil_procy_ram.mif                                         ;
+; output_files/stp1.stp                                     ;
+; pc.v                                                      ;
+; pcsrc_mux.bsf                                             ;
+; pcsrc_mux.qip                                             ;
+; pcsrc_mux.v                                               ;
+; pcsrc_mux_bb.v                                            ;
+; pll.bsf                                                   ;
+; pll.ppf                                                   ;
+; pll.qip                                                   ;
+; pll.v                                                     ;
+; pll_bb.v                                                  ;
+; registers.v                                               ;
+; tb_full.sv                                                ;
+; U:/ENGN1640/lil_procy/output_files/stp1_auto_stripped.stp ;
+; wb_mux.bsf                                                ;
+; wb_mux.qip                                                ;
+; wb_mux.v                                                  ;
+; wb_mux_bb.v                                               ;
++-----------------------------------------------------------+
+
+

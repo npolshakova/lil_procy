@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lil_procy">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|a_sel:inst11|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|alu:inst13|lpm_mult:Mult0" CBX_FILE_NAME="mult_i1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|b_mux:inst10|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|dmem:inst14|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fcm1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|inc_pc:inst4|parallel_add:parallel_add_component" CBX_FILE_NAME="par_add_mje.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|pcsrc_mux:inst2|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|wb_mux:inst15|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_boc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

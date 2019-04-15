@@ -1,0 +1,109 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lil_procy_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/instruction_mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instruction_mem
+# 
+# Top level modules:
+# 	instruction_mem
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/pcsrc_mux.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pcsrc_mux
+# 
+# Top level modules:
+# 	pcsrc_mux
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/inc_pc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module inc_pc
+# 
+# Top level modules:
+# 	inc_pc
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/pc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/registers.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module registers
+# 
+# Top level modules:
+# 	registers
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/id.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module id
+# 
+# Top level modules:
+# 	id
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/imm_gen.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module imm_gen
+# 
+# Top level modules:
+# 	imm_gen
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/b_mux.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module b_mux
+# 
+# Top level modules:
+# 	b_mux
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/a_sel.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module a_sel
+# 
+# Top level modules:
+# 	a_sel
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/dmem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/wb_mux.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wb_mux
+# 
+# Top level modules:
+# 	wb_mux
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/add_four.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module add_four
+# 
+# Top level modules:
+# 	add_four
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/branch_comp.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module branch_comp
+# 
+# Top level modules:
+# 	branch_comp
+# vlog -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy {U:/ENGN1640/lil_procy/get_addr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module get_addr
+# 
+# Top level modules:
+# 	get_addr
+# 

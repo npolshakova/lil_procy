@@ -1,0 +1,42 @@
+module alu
+(
+	alu_select, data_one, data_two, alu_result
+);
+	input [3:0] alu_select;
+	input [31:0] data_a;
+	input [31:0] data_b;
+	output reg [31:0] alu_result;
+	
+	reg signed [31:0] a;
+	reg signed [31:0] b;
+
+	initial
+	begin
+		alu_result = 0;
+		a = 0;
+		b = 0;
+	end
+	
+	always @(*)
+	begin
+		a = data_a;
+		b = data_b;
+		
+		case(alu_control)
+			4'b0010: // add
+					alu_result = a + b;
+			4'b0110: // sub
+					alu_result = a - b;
+			4'b0000: // and 
+					alu_result = a & b;
+			4'b0001: // or
+					alu_result = a | b;	
+			4'b1100: // mul
+					alu_result = a * b;
+			default: 
+					alu_result = b; // Ahh!
+		endcase
+		
+	end 
+	
+endmodule

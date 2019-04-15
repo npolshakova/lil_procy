@@ -1,0 +1,325 @@
+m255
+K3
+13
+cModel Technology
+Z0 dU:\ENGN1640\lil_procy\simulation\modelsim
+va_sel
+IfLe`@01SHVz9ke7flOo[:0
+VJ:A;naDREeYO7iYJ5>WJI1
+Z1 dU:\ENGN1640\lil_procy\simulation\modelsim
+w1553280342
+8U:/ENGN1640/lil_procy/a_sel.v
+FU:/ENGN1640/lil_procy/a_sel.v
+L0 39
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+U:/ENGN1640/lil_procy -O0
+!i10b 1
+!s100 N0k3M3SPJ>gV8`JS4:kbH2
+!s85 0
+!s108 1554164388.705000
+!s107 U:/ENGN1640/lil_procy/a_sel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/a_sel.v|
+!s101 -O0
+vadd_four
+IN1bd82jeP_Qc;1dI5lH_@3
+V1kjFHC?SnhZdH9j7Sc^Pz3
+R1
+w1553281343
+8U:/ENGN1640/lil_procy/add_four.v
+FU:/ENGN1640/lil_procy/add_four.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 3]2YPc1Q4EZ69MJl1NzlV1
+!s85 0
+!s108 1554164389.940000
+!s107 U:/ENGN1640/lil_procy/add_four.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/add_four.v|
+!s101 -O0
+valu
+Iea@Wg8E;ITVbXEb4YeeOg2
+V@za_2>=Kl6;YoT_PED5623
+R1
+w1553286998
+8U:/ENGN1640/lil_procy/alu.v
+FU:/ENGN1640/lil_procy/alu.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 kmbkNkH8;G=UCIjbQ;0Ob2
+!s85 0
+!s108 1554164388.971000
+!s107 U:/ENGN1640/lil_procy/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/alu.v|
+!s101 -O0
+vb_mux
+IfW]gYD1VM>YQHm0hLS0K`1
+V1cCa>`dbPTQ^EHPOol?HR3
+R1
+w1553280220
+8U:/ENGN1640/lil_procy/b_mux.v
+FU:/ENGN1640/lil_procy/b_mux.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 9`SMfl6>cRj4De:_aY9S@0
+!s85 0
+!s108 1554164388.408000
+!s107 U:/ENGN1640/lil_procy/b_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/b_mux.v|
+!s101 -O0
+vbranch_comp
+I=eOoaWOXDCX>MP10gj0jL0
+V?:i:HTaFVVbPEMzZ:_@CT2
+R1
+w1553284420
+8U:/ENGN1640/lil_procy/branch_comp.v
+FU:/ENGN1640/lil_procy/branch_comp.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 MjbV_X_a7N<1g7o<BR_Ba2
+!s85 0
+!s108 1554164390.315000
+!s107 U:/ENGN1640/lil_procy/branch_comp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/branch_comp.v|
+!s101 -O0
+vcontrol
+I]6IhdK`:c4]RRNM[;?d1;1
+VTddBS81k8?G6X>?<6JlSH0
+R1
+w1554163806
+8U:/ENGN1640/lil_procy/control.v
+FU:/ENGN1640/lil_procy/control.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 5R9Uo1Z_?jY7=@;o=EV4[0
+!s85 0
+!s108 1554164387.518000
+!s107 U:/ENGN1640/lil_procy/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/control.v|
+!s101 -O0
+vdmem
+IBH5XPXmEBaZjS<YCekjC;2
+VQiRJfGfd[V?ZDDaOlhDGd0
+R1
+w1554157376
+8U:/ENGN1640/lil_procy/dmem.v
+FU:/ENGN1640/lil_procy/dmem.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 jA>]LU7DLY1[gk?kV[HK11
+!s85 0
+!s108 1554164389.221000
+!s107 U:/ENGN1640/lil_procy/dmem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/dmem.v|
+!s101 -O0
+vget_addr
+!i10b 1
+!s100 XoD=Th5gcTO_oM7n5X@k63
+ISE8VM6>UO?Hok_DDmdZ:12
+VV_19?;Yf`^]QHoV4VJLM:0
+R1
+w1553284683
+8U:/ENGN1640/lil_procy/get_addr.v
+FU:/ENGN1640/lil_procy/get_addr.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1554164390.565000
+!s107 U:/ENGN1640/lil_procy/get_addr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/get_addr.v|
+!s101 -O0
+R3
+R4
+vid
+Ikg3gboNVLH2FI_anBc<0`2
+VTkl^`XGa1dm<Z?FIOajR=1
+R1
+w1553285997
+8U:/ENGN1640/lil_procy/id.v
+FU:/ENGN1640/lil_procy/id.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ;c`]dckdlGA^dc3Z1I3j13
+!s85 0
+!s108 1554164387.189000
+!s107 U:/ENGN1640/lil_procy/id.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/id.v|
+!s101 -O0
+vimm_gen
+IlNXJM<A@iR>l3Z:Sf;jl>1
+VHf`9ZSEcfHAli4e:8]=TH2
+R1
+w1553287663
+8U:/ENGN1640/lil_procy/imm_gen.v
+FU:/ENGN1640/lil_procy/imm_gen.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 UfBIH6zC=kVc7VM8>T5Qd2
+!s85 0
+!s108 1554164387.799000
+!s107 U:/ENGN1640/lil_procy/imm_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/imm_gen.v|
+!s101 -O0
+vinc_pc
+ICKOin]_JHcdzgBI=P>fn71
+VXi1jC5`9OSZ>_BGhPmB[30
+R1
+w1553278783
+8U:/ENGN1640/lil_procy/inc_pc.v
+FU:/ENGN1640/lil_procy/inc_pc.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ennI=lUh<LoAFdIi>W3^]2
+!s85 0
+!s108 1554164386.252000
+!s107 U:/ENGN1640/lil_procy/inc_pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/inc_pc.v|
+!s101 -O0
+vinstruction_mem
+IO[Ik@F:AG`=@UOaCiY2W>3
+V?UPC<MlQ`5[Q:Ii8k@`AW0
+R1
+w1554160036
+8U:/ENGN1640/lil_procy/instruction_mem.v
+FU:/ENGN1640/lil_procy/instruction_mem.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 i992V_2Q3d3l6a@zm]Co62
+!s85 0
+!s108 1554164383.674000
+!s107 U:/ENGN1640/lil_procy/instruction_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/instruction_mem.v|
+!s101 -O0
+vpc
+INj8Pa4jQb]3ba4HEAX]Da2
+V7M1HC<:9TPLe9@2gX_d4S1
+R1
+w1553284725
+8U:/ENGN1640/lil_procy/pc.v
+FU:/ENGN1640/lil_procy/pc.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ZXNHg>LX>jb1IhO:bO>bN3
+!s85 0
+!s108 1554164386.611000
+!s107 U:/ENGN1640/lil_procy/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/pc.v|
+!s101 -O0
+vpcsrc_mux
+I3QgZo[=ZK;KOO]<0OP;Fg3
+V[_X3;6HTZDn1hAaILh^E<3
+R1
+w1553278605
+8U:/ENGN1640/lil_procy/pcsrc_mux.v
+FU:/ENGN1640/lil_procy/pcsrc_mux.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 AZ5Y:W=OEeg:PC9=g6ije3
+!s85 0
+!s108 1554164385.861000
+!s107 U:/ENGN1640/lil_procy/pcsrc_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/pcsrc_mux.v|
+!s101 -O0
+vregisters
+Il?Qdz`2fa80z15^7h`<5M0
+V6:ldId;T>0^<O9mf704Hm3
+R1
+w1553284818
+8U:/ENGN1640/lil_procy/registers.v
+FU:/ENGN1640/lil_procy/registers.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 BWWa4:>_1Ddz0E>c278?51
+!s85 0
+!s108 1554164386.908000
+!s107 U:/ENGN1640/lil_procy/registers.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/registers.v|
+!s101 -O0
+vwb_mux
+IVHX<HRS0YRmIj:3k;7MMX1
+VMdRidZ0X:P^Zfo@9GcC?f3
+R1
+w1553281064
+8U:/ENGN1640/lil_procy/wb_mux.v
+FU:/ENGN1640/lil_procy/wb_mux.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 kAS83OiU:?>YH:feUUL1U2
+!s85 0
+!s108 1554164389.486000
+!s107 U:/ENGN1640/lil_procy/wb_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/ENGN1640/lil_procy|U:/ENGN1640/lil_procy/wb_mux.v|
+!s101 -O0

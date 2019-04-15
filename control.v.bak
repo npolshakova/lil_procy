@@ -1,0 +1,17 @@
+module control(inst, branch_uneq, pc_src, imm_sel, reg_write, branch_eq, branch_lt, b_sel, a_sel, alu_sel, mem_write, wb_sel);
+
+input [31:0] inst;
+input branch_uneq;
+
+output pc_src;
+output imm_sel;
+output reg_write;
+output branch_eq;
+output branch_lt;
+output b_sel;
+output a_sel;
+output [2:0] alu_sel;
+output mem_write;
+output wb_sel;
+
+endmodule;

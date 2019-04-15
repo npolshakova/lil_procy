@@ -1,0 +1,6 @@
+module registers(CLOCK_50, wb, addr_a, addr_b, dst, data_a, data_b, reg_write)
+
+input CLOCK_50;
+input wb;
+
+endmodule

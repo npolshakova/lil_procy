@@ -1,0 +1,7 @@
+module pc(CLOCK_50, update_pc)
+
+input CLOCK_50;
+input [31:0] update_pc;
+output [31:0] pc;
+
+endmodule

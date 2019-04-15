@@ -1,0 +1,3 @@
+module instruction_mem(CLOCK_50);
+
+endmodule

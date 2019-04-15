@@ -1,0 +1,9 @@
+module branch_comp(data_a, data_b, branch_uneq, branch_eq, branch_lt);
+
+input [31:0] data_a;
+input [31:0] data_b;
+input branch_uneq;
+output  branch_eq;
+output branch_lt;
+
+endmodule;

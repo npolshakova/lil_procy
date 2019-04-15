@@ -1,0 +1,6 @@
+module imm_gen(value, imm);
+
+input [24:0] value;
+output [31:0] imm;
+
+endmodule
