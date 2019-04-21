@@ -1,0 +1,10 @@
+module forwarding(rs1, rs2, rd, a_select, b_select, wb);
+
+input [4:0] rs1;
+input [4:0] rs2; 
+input [4:0] rd;
+output reg a_select;
+output reg b_select;
+output reg wb;
+
+endmodule

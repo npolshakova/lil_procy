@@ -1,4 +1,4 @@
-module registers(CLOCK_50, wb, addr_a, addr_b, dst, data_a, data_b, reg_write, x2);
+module registers(CLOCK_50, wb, addr_a, addr_b, dst, data_a, data_b, reg_write);
 
 input CLOCK_50;
 input [31:0] wb;
@@ -10,10 +10,6 @@ output reg [31:0] data_a;
 output reg [31:0] data_b;
 
 reg [31:0] regs [31:0];
-
-output [31:0] x2;
-
-assign x2 = regs[1];
 
 initial
 	begin
@@ -53,6 +49,7 @@ initial
 
 	always @(posedge CLOCK_50)
 	begin
+		regs[30] <= regs[30] + 1; // clock cycle count
 		
 		if(reg_write && dst != 0) 
 			regs[dst] <= wb;
