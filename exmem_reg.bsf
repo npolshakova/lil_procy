@@ -87,6 +87,13 @@ applicable agreement for further details.
 		(line (pt 0 160)(pt 16 160)(line_width 3))
 	)
 	(port
+		(pt 0 176)
+		(input)
+		(text "memread_in" (rect 0 0 50 12)(font "Arial" ))
+		(text "memread_in" (rect 21 171 71 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
 		(pt 232 32)
 		(output)
 		(text "inst_out[31..0]" (rect 0 0 54 12)(font "Arial" ))
@@ -141,6 +148,13 @@ applicable agreement for further details.
 		(text "dst_out[4..0]" (rect 0 0 50 12)(font "Arial" ))
 		(text "dst_out[4..0]" (rect 161 139 211 151)(font "Arial" ))
 		(line (pt 232 144)(pt 216 144)(line_width 3))
+	)
+	(port
+		(pt 232 160)
+		(output)
+		(text "memread_out" (rect 0 0 56 12)(font "Arial" ))
+		(text "memread_out" (rect 155 155 211 167)(font "Arial" ))
+		(line (pt 232 160)(pt 216 160)(line_width 1))
 	)
 	(drawing
 		(rectangle (rect 16 16 216 192)(line_width 1))
