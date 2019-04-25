@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C35F672) Path("U:/ENGN1640/lil_procy/output_files/") File("lil_procy.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C35F672) Path("U:/Backup/single_cyc/output_files/") File("lil_procy.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

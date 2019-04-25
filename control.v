@@ -44,7 +44,7 @@ output reg [1:0] wb_sel;
 			wb_sel = 0;
 			alu_sel = 4'b0010; // add 
 		end
-		else 
+		else
 		case(inst[6:0])
 			7'b1100111: // jalr
 				begin
@@ -54,7 +54,7 @@ output reg [1:0] wb_sel;
 					b_sel = 1;
 					a_sel = 0;
 					reg_write = 1;
-					pc_src = 2'b11;
+					pc_src = 2'b01;
 					wb_sel = 2;
 					alu_sel = 4'b0010; // add 
 				end 

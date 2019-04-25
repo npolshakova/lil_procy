@@ -49,7 +49,7 @@ initial
 
 	always @(posedge CLOCK_50)
 	begin
-		regs[30] <= regs[30] + 1; // clock cycle count
+		regs[30] <= regs[30] + 1; // clock cycle count.
 		
 		if(reg_write && dst != 0) 
 			regs[dst] <= wb;

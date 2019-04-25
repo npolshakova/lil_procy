@@ -58,13 +58,6 @@ applicable agreement for further details.
 		(text "control_sel" (rect 129 27 171 39)(font "Arial" ))
 		(line (pt 192 32)(pt 176 32)(line_width 1))
 	)
-	(port
-		(pt 192 48)
-		(output)
-		(text "pc_sel" (rect 0 0 25 12)(font "Arial" ))
-		(text "pc_sel" (rect 146 43 171 55)(font "Arial" ))
-		(line (pt 192 48)(pt 176 48)(line_width 1))
-	)
 	(drawing
 		(rectangle (rect 16 16 176 96)(line_width 1))
 	)

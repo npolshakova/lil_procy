@@ -1,62 +1,74 @@
-Quartus II Archive log --	U:/ENGN1640/lil_procy/output_files/lil_procy.qarlog
+Quartus II Archive log --	U:/Backup/single_cyc/output_files/lil_procy.qarlog
 
-Archive:	U:/ENGN1640/lil_procy/output_files/lil_procy.qar
-Date:		Tue Apr 02 12:48:46 2019
+Archive:	U:/Backup/single_cyc/output_files/lil_procy.qar
+Date:		Thu Apr 25 18:59:11 2019
 Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 
 	=========== Files Selected: ===========
-U:/ENGN1640/lil_procy/a_sel.bsf
-U:/ENGN1640/lil_procy/a_sel.qip
-U:/ENGN1640/lil_procy/a_sel.v
-U:/ENGN1640/lil_procy/a_sel_bb.v
-U:/ENGN1640/lil_procy/add_four.v
-U:/ENGN1640/lil_procy/alu.v
-U:/ENGN1640/lil_procy/b_mux.bsf
-U:/ENGN1640/lil_procy/b_mux.qip
-U:/ENGN1640/lil_procy/b_mux.v
-U:/ENGN1640/lil_procy/b_mux_bb.v
-U:/ENGN1640/lil_procy/branch_comp.v
-U:/ENGN1640/lil_procy/control.v
-U:/ENGN1640/lil_procy/dmem.bsf
-U:/ENGN1640/lil_procy/dmem.qip
-U:/ENGN1640/lil_procy/dmem.v
-U:/ENGN1640/lil_procy/dmem_bb.v
-U:/ENGN1640/lil_procy/dmem_syn.v
-U:/ENGN1640/lil_procy/get_addr.v
-U:/ENGN1640/lil_procy/id.v
-U:/ENGN1640/lil_procy/imm_gen.v
-U:/ENGN1640/lil_procy/inc_pc.bsf
-U:/ENGN1640/lil_procy/inc_pc.qip
-U:/ENGN1640/lil_procy/inc_pc.v
-U:/ENGN1640/lil_procy/inc_pc_bb.v
-U:/ENGN1640/lil_procy/incremental_db/compiled_partitions/lil_procy.db_info
-U:/ENGN1640/lil_procy/instruction_mem.v
-U:/ENGN1640/lil_procy/lil_procy.bdf
-U:/ENGN1640/lil_procy/lil_procy.out.sdc
-U:/ENGN1640/lil_procy/lil_procy.qpf
-U:/ENGN1640/lil_procy/lil_procy.qsf
-U:/ENGN1640/lil_procy/lil_procy.v
-U:/ENGN1640/lil_procy/lil_procy_ram.mif
-U:/ENGN1640/lil_procy/output_files/stp1.stp
+U:/Backup/single_cyc/a_sel.bsf
+U:/Backup/single_cyc/a_sel.qip
+U:/Backup/single_cyc/a_sel.v
+U:/Backup/single_cyc/a_sel_bb.v
+U:/Backup/single_cyc/add_four.v
+U:/Backup/single_cyc/alu.v
+U:/Backup/single_cyc/b_mux.bsf
+U:/Backup/single_cyc/b_mux.qip
+U:/Backup/single_cyc/b_mux.v
+U:/Backup/single_cyc/b_mux_bb.v
+U:/Backup/single_cyc/branch_comp.v
+U:/Backup/single_cyc/control.v
+U:/Backup/single_cyc/data_a_mux.bsf
+U:/Backup/single_cyc/data_a_mux.qip
+U:/Backup/single_cyc/data_a_mux.v
+U:/Backup/single_cyc/data_a_mux_bb.v
+U:/Backup/single_cyc/data_b_mux.bsf
+U:/Backup/single_cyc/data_b_mux.qip
+U:/Backup/single_cyc/data_b_mux.v
+U:/Backup/single_cyc/data_b_mux_bb.v
+U:/Backup/single_cyc/dmem.bsf
+U:/Backup/single_cyc/dmem.qip
+U:/Backup/single_cyc/dmem.v
+U:/Backup/single_cyc/dmem_bb.v
+U:/Backup/single_cyc/dmem_syn.v
+U:/Backup/single_cyc/exmem_reg.v
+U:/Backup/single_cyc/forwarding.v
+U:/Backup/single_cyc/get_addr.v
+U:/Backup/single_cyc/hazard_detect.v
+U:/Backup/single_cyc/id.v
+U:/Backup/single_cyc/imm_gen.v
+U:/Backup/single_cyc/inc_pc.bsf
+U:/Backup/single_cyc/inc_pc.qip
+U:/Backup/single_cyc/inc_pc.v
+U:/Backup/single_cyc/inc_pc_bb.v
+U:/Backup/single_cyc/incremental_db/compiled_partitions/lil_procy.db_info
+U:/Backup/single_cyc/instruction_mem.v
+U:/Backup/single_cyc/lil_procy.bdf
+U:/Backup/single_cyc/lil_procy.out.sdc
+U:/Backup/single_cyc/lil_procy.qpf
+U:/Backup/single_cyc/lil_procy.qsf
+U:/Backup/single_cyc/lil_procy.v
+U:/Backup/single_cyc/lil_procy_ram.mif
+U:/Backup/single_cyc/output_files/Chain1.cdf
+U:/Backup/single_cyc/output_files/stp1.stp
+U:/Backup/single_cyc/pc.v
+U:/Backup/single_cyc/pcsrc_mux.bsf
+U:/Backup/single_cyc/pcsrc_mux.qip
+U:/Backup/single_cyc/pcsrc_mux.v
+U:/Backup/single_cyc/pcsrc_mux_bb.v
+U:/Backup/single_cyc/pll.bsf
+U:/Backup/single_cyc/pll.ppf
+U:/Backup/single_cyc/pll.qip
+U:/Backup/single_cyc/pll.v
+U:/Backup/single_cyc/pll_bb.v
+U:/Backup/single_cyc/registers.v
+U:/Backup/single_cyc/tb_full.sv
+U:/Backup/single_cyc/wb_mux.bsf
+U:/Backup/single_cyc/wb_mux.qip
+U:/Backup/single_cyc/wb_mux.v
+U:/Backup/single_cyc/wb_mux_bb.v
 U:/ENGN1640/lil_procy/output_files/stp1_auto_stripped.stp
-U:/ENGN1640/lil_procy/pc.v
-U:/ENGN1640/lil_procy/pcsrc_mux.bsf
-U:/ENGN1640/lil_procy/pcsrc_mux.qip
-U:/ENGN1640/lil_procy/pcsrc_mux.v
-U:/ENGN1640/lil_procy/pcsrc_mux_bb.v
-U:/ENGN1640/lil_procy/pll.bsf
-U:/ENGN1640/lil_procy/pll.ppf
-U:/ENGN1640/lil_procy/pll.qip
-U:/ENGN1640/lil_procy/pll.v
-U:/ENGN1640/lil_procy/pll_bb.v
-U:/ENGN1640/lil_procy/registers.v
-U:/ENGN1640/lil_procy/tb_full.sv
-U:/ENGN1640/lil_procy/wb_mux.bsf
-U:/ENGN1640/lil_procy/wb_mux.qip
-U:/ENGN1640/lil_procy/wb_mux.v
-U:/ENGN1640/lil_procy/wb_mux_bb.v
 c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
-	======= Total: 51 files to archive =======
+	======= Total: 63 files to archive =======
 
 	================ Status: ===============
 All files archived successfully.

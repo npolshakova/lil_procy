@@ -1,5 +1,5 @@
 Archive Project report for lil_procy
-Tue Apr 02 17:44:49 2019
+Thu Apr 25 18:59:12 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -35,7 +35,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Tue Apr 02 17:44:49 2019 ;
+; Archive Project Status ; Successful - Thu Apr 25 18:59:12 2019 ;
 ; Revision Name          ; lil_procy                             ;
 ; Top-level Entity Name  ; lil_procy                             ;
 ; Family                 ; Cyclone II                            ;
@@ -50,16 +50,16 @@ Info: File Set 'Source control' contains:
     Info: Automatically detected source files
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
-Info: Generated archive 'U:/ENGN1640/lil_procy/lil_procy.qar'
+Info: Generated archive 'U:/Backup/single_cyc/output_files/lil_procy.qar'
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'lil_procy.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4482 megabytes
-    Info: Processing ended: Tue Apr 02 17:44:49 2019
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4492 megabytes
+    Info: Processing ended: Thu Apr 25 18:59:12 2019
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:02
 
 
 +-----------------------------------------------------------+
@@ -80,12 +80,23 @@ Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
 ; branch_comp.v                                             ;
 ; c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf   ;
 ; control.v                                                 ;
+; data_a_mux.bsf                                            ;
+; data_a_mux.qip                                            ;
+; data_a_mux.v                                              ;
+; data_a_mux_bb.v                                           ;
+; data_b_mux.bsf                                            ;
+; data_b_mux.qip                                            ;
+; data_b_mux.v                                              ;
+; data_b_mux_bb.v                                           ;
 ; dmem.bsf                                                  ;
 ; dmem.qip                                                  ;
 ; dmem.v                                                    ;
 ; dmem_bb.v                                                 ;
 ; dmem_syn.v                                                ;
+; exmem_reg.v                                               ;
+; forwarding.v                                              ;
 ; get_addr.v                                                ;
+; hazard_detect.v                                           ;
 ; id.v                                                      ;
 ; imm_gen.v                                                 ;
 ; inc_pc.bsf                                                ;
@@ -100,6 +111,7 @@ Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
 ; lil_procy.qsf                                             ;
 ; lil_procy.v                                               ;
 ; lil_procy_ram.mif                                         ;
+; output_files/Chain1.cdf                                   ;
 ; output_files/stp1.stp                                     ;
 ; pc.v                                                      ;
 ; pcsrc_mux.bsf                                             ;
