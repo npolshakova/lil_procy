@@ -1,7 +1,7 @@
 Quartus II Archive log --	U:/Backup/single_cyc/output_files/lil_procy.qarlog
 
 Archive:	U:/Backup/single_cyc/output_files/lil_procy.qar
-Date:		Thu Apr 25 18:59:11 2019
+Date:		Thu Apr 25 19:31:11 2019
 Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 
 	=========== Files Selected: ===========
@@ -10,7 +10,11 @@ U:/Backup/single_cyc/a_sel.qip
 U:/Backup/single_cyc/a_sel.v
 U:/Backup/single_cyc/a_sel_bb.v
 U:/Backup/single_cyc/add_four.v
+U:/Backup/single_cyc/addsub.v
 U:/Backup/single_cyc/alu.v
+U:/Backup/single_cyc/alu_block.bdf
+U:/Backup/single_cyc/alu_mux.v
+U:/Backup/single_cyc/alushift.v
 U:/Backup/single_cyc/b_mux.bsf
 U:/Backup/single_cyc/b_mux.qip
 U:/Backup/single_cyc/b_mux.v
@@ -33,6 +37,8 @@ U:/Backup/single_cyc/dmem_syn.v
 U:/Backup/single_cyc/exmem_reg.v
 U:/Backup/single_cyc/forwarding.v
 U:/Backup/single_cyc/get_addr.v
+U:/Backup/single_cyc/get_result.v
+U:/Backup/single_cyc/get_shift.v
 U:/Backup/single_cyc/hazard_detect.v
 U:/Backup/single_cyc/id.v
 U:/Backup/single_cyc/imm_gen.v
@@ -48,6 +54,8 @@ U:/Backup/single_cyc/lil_procy.qpf
 U:/Backup/single_cyc/lil_procy.qsf
 U:/Backup/single_cyc/lil_procy.v
 U:/Backup/single_cyc/lil_procy_ram.mif
+U:/Backup/single_cyc/mini_alu.v
+U:/Backup/single_cyc/mult_sel.v
 U:/Backup/single_cyc/output_files/Chain1.cdf
 U:/Backup/single_cyc/output_files/stp1.stp
 U:/Backup/single_cyc/pc.v
@@ -60,6 +68,7 @@ U:/Backup/single_cyc/pll.ppf
 U:/Backup/single_cyc/pll.qip
 U:/Backup/single_cyc/pll.v
 U:/Backup/single_cyc/pll_bb.v
+U:/Backup/single_cyc/plsmult.v
 U:/Backup/single_cyc/registers.v
 U:/Backup/single_cyc/tb_full.sv
 U:/Backup/single_cyc/wb_mux.bsf
@@ -68,7 +77,7 @@ U:/Backup/single_cyc/wb_mux.v
 U:/Backup/single_cyc/wb_mux_bb.v
 U:/ENGN1640/lil_procy/output_files/stp1_auto_stripped.stp
 c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
-	======= Total: 63 files to archive =======
+	======= Total: 72 files to archive =======
 
 	================ Status: ===============
 All files archived successfully.

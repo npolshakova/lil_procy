@@ -1,14 +1,18 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="lil_procy">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|alu_block:inst24|addsub:inst2|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_lcg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|alu_block:inst24|mult_sel:inst4|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|alu_block:inst24|plsmult:inst8|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_knq.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|data_a_mux:inst22|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|a_sel:inst11|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|alu:inst13|lpm_mult:Mult0" CBX_FILE_NAME="mult_i1t.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|b_mux:inst10|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|dmem:inst14|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fcm1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|wb_mux:inst15|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|alu_block:inst24|alu_mux:inst|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_coc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|alu_block:inst24|alushift:inst1|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_ukb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|data_b_mux:inst23|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|a_sel:inst11|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|inc_pc:inst4|parallel_add:parallel_add_component" CBX_FILE_NAME="par_add_mje.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|pcsrc_mux:inst2|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_boc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|wb_mux:inst15|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_boc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|lil_procy|data_b_mux:inst23|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9oc.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

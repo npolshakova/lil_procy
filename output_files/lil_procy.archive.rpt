@@ -1,5 +1,5 @@
 Archive Project report for lil_procy
-Thu Apr 25 18:59:12 2019
+Thu Apr 25 19:31:12 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -35,7 +35,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Thu Apr 25 18:59:12 2019 ;
+; Archive Project Status ; Successful - Thu Apr 25 19:31:12 2019 ;
 ; Revision Name          ; lil_procy                             ;
 ; Top-level Entity Name  ; lil_procy                             ;
 ; Family                 ; Cyclone II                            ;
@@ -57,9 +57,9 @@ Info: Generated report 'lil_procy.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4492 megabytes
-    Info: Processing ended: Thu Apr 25 18:59:12 2019
+    Info: Processing ended: Thu Apr 25 19:31:12 2019
     Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +-----------------------------------------------------------+
@@ -72,7 +72,11 @@ Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
 ; a_sel.v                                                   ;
 ; a_sel_bb.v                                                ;
 ; add_four.v                                                ;
+; addsub.v                                                  ;
 ; alu.v                                                     ;
+; alu_block.bdf                                             ;
+; alu_mux.v                                                 ;
+; alushift.v                                                ;
 ; b_mux.bsf                                                 ;
 ; b_mux.qip                                                 ;
 ; b_mux.v                                                   ;
@@ -96,6 +100,8 @@ Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
 ; exmem_reg.v                                               ;
 ; forwarding.v                                              ;
 ; get_addr.v                                                ;
+; get_result.v                                              ;
+; get_shift.v                                               ;
 ; hazard_detect.v                                           ;
 ; id.v                                                      ;
 ; imm_gen.v                                                 ;
@@ -111,6 +117,8 @@ Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
 ; lil_procy.qsf                                             ;
 ; lil_procy.v                                               ;
 ; lil_procy_ram.mif                                         ;
+; mini_alu.v                                                ;
+; mult_sel.v                                                ;
 ; output_files/Chain1.cdf                                   ;
 ; output_files/stp1.stp                                     ;
 ; pc.v                                                      ;
@@ -123,6 +131,7 @@ Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
 ; pll.qip                                                   ;
 ; pll.v                                                     ;
 ; pll_bb.v                                                  ;
+; plsmult.v                                                 ;
 ; registers.v                                               ;
 ; tb_full.sv                                                ;
 ; U:/ENGN1640/lil_procy/output_files/stp1_auto_stripped.stp ;
